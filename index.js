@@ -21,3 +21,13 @@ if(firstAnswer=== "left") {
 }else if (firstAnswer==='right') {
     firstAnswer = window.prompt('Follow Right path')
 } 
+
+
+switch (key) {
+    case value:
+        
+        break;
+
+    default:
+        break;
+}
