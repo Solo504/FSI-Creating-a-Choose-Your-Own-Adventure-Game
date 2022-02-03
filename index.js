@@ -1,33 +1,31 @@
 /*window.prompt("Do you head left or right")
 let answer = window.prompt("Do you head left or right")
 */
+//Main Menu
 let firstAnswer = window.prompt("Do you head left of right")
-if(firstAnswer=== "left") {
-    firstAnswer = window.prompt('You come across a stray cat. It scampers off down a small hole just large enough for you to crawl through. Do you follow it or continue on your path?')
-    let secondAnswer
-    if(firstAnswer==='follow'){
-        secondAnswer=window.prompt('Stay or Spread')
-        let thirdAnswer
-        if(secondAnswer==='Stay'){
-            thirdAnswer = window.prompt('Stay home please')
-        }else if(secondAnswer==='Spread'){
-            thirdAnswer = window.prompt('Spread away from here')
+    if (firstAnswer=='left') {
+        firstAnswer=window.prompt('Follow or Continue')
+        let secondAnswer
+        if (firstAnswer=='Follow') {
+            secondAnswer=window.prompt('Stay or Spread')
+            let thirdAnswer
+            if (secondAnswer=='Stay') {
+                thirdAnswer=window.prompt('Stay left')
+            }
+            if (secondAnswer=='Spread') {
+                thirdAnswer=window.prompt('Spread Left')
+            }
+        }if (firstAnswer=='Continue') {
+            secondAnswer=window.prompt('Continue Ladder or Stairs')
+            if (secondAnswer=='Ladder') {
+                thirdAnswer=window.prompt('Up the Ladder')
+            }
+            if (secondAnswer=='Stairs') {
+                thirdAnswer=window.prompt('Up the Stairs')
+            }
         }
     }
-    else if (firstAnswer==='continue') {
-         {secondAnswer=window.prompt('continue please')
+    
+    if (firstAnswer=='right') {
+        firstAnswer=window.prompt('You have chosen right way')
     }
-}
-}else if (firstAnswer==='right') {
-    firstAnswer = window.prompt('Follow Right path')
-} 
-
-
-switch (key) {
-    case value:
-        
-        break;
-
-    default:
-        break;
-}
